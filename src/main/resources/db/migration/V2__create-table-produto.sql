@@ -1,0 +1,6 @@
+CREATE TABLE produto (
+    id BIGSERIAL PRIMARY KEY UNIQUE NOT NULL,
+    nome VARCHAR(255) NOT NULL,
+    descricao VARCHAR(255) NOT NULL,
+    preco NUMERIC(10,2) CHECK (preco >= 0)
+);
