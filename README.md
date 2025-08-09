@@ -62,3 +62,10 @@ A API disponibiliza os seguintes endpoints para a entidade `Pedido`:
 | `POST`      | `/pedidos`                   | Cria                                      |
 | `PUT`       | `/pedidos`                   | Atualiza                                  |
 | `DELETE`    | `/pedidos/{id}`              | Remove pedido por ID                      |
+
+## 📂 Documentação da Arquitetura
+Toda a documentação referente à arquitetura do projeto está localizada na pasta docs/architecture/, que contém:
+
+Diagramas C4/ – Diagramas no modelo C4, representando os diferentes níveis de visão do sistema (Contexto, Contêiner, Componentes e, se necessário, Código).
+
+Diagramas de Classes/ – Diagramas UML de classes, descrevendo as estruturas e relações entre as entidades do sistema.
